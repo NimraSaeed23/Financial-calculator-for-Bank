@@ -1,4 +1,4 @@
-# from dataclasses import dataclass
+from dataclasses import dataclass
 from decimal import Decimal, ROUND_HALF_UP, getcontext
 from datetime import date
 from typing import Dict, List, Optional, Tuple

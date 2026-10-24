@@ -106,4 +106,3 @@ def reconcile(base, reduced, principal, s: CalcSettings) -> dict:
         total_paid_base=tot(base, "payment"),
         total_paid_reduced=tot(reduced, "payment") + tot(reduced, "extra"),
     )
-    
